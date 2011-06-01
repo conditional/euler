@@ -2,6 +2,7 @@
 # http://projecteuler.net/index.php?section=problems&id=35
 # Array#permutationの仕様がまだいまいちわかってない
 # けっきょく Array#rotate つかった
+# 実行時間は3秒くらい。
 
 require "prime_list"
 require "rubygems"

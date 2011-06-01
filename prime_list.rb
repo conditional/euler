@@ -1,6 +1,7 @@
-# -*- coding: undecided -*-
+# -*- coding: utf-8 -*-
 # http://code.nanigac.com/source/view/709
 # あんまり理解してないけど速いから使ってる
+
 
 def prime_list(n)
   return [] if n < 2

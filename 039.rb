@@ -7,7 +7,7 @@
 def count_partision(p)
   ret = []
   (1...p).each do |c|
-    (1...p-c).each do |a|
+    (1...(p-c)/2).each do |a| #探索範囲狭めて計算時間半分くらい。
       b = p - (a + c)
       ret << [a,b,c] if a**2 + b**2 == c**2
     end
